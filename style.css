@@ -1,0 +1,75 @@
+.menu{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body{
+  margin: 0px;
+  background-color:#f7f2f2;
+
+}
+a{
+  text-decoration: none;
+}
+/*Add the color of the link as blue and change it to red once visited-student 3*/
+a:visited{
+  color:chartreuse;
+}
+
+.bodyimg{
+  position: relative;
+}
+.bodyimg p{
+  color:#f7f2f2;
+  font-size: 55px;
+  font-family: fantasy;
+  position: absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.bodyimg h3{
+  color:#f7f2f2;
+  font-family: fantasy;
+  font-size: 30px;
+  width: 1000px;
+  position: absolute;
+  top:40%;
+  left:45%;  transform: translate(-40%, -40%);
+
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  font-family: sans-serif;
+
+}
+.grid img{
+  border: 2px solid black;
+
+  border-radius: 50px;
+}
+.origami {
+  /*add the border radius and background color -Student 4*/
+border-radius:30px;
+  padding:20px;
+  margin:20px;
+  background-color:darkgreen;
+
+
+  /*Add the padding and margin-student 1 */
+  
+  width:310px;
+  font-family: fantasy;
+
+}
+.origami:hover{
+/*Increase the size of the elemment using scale-student 2*/
+  transform:scale(1.2);
+}
